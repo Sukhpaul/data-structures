@@ -37,7 +37,6 @@ var LimitedArray = function(limit) {
       throw new Error('Error trying to access an over-the-limit index');
     }
   };
-
   return limitedArray;
 };
 
